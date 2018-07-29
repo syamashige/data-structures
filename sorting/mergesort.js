@@ -1,4 +1,5 @@
-// Merge Sort: Divide and Conquer 
+// MERGE SORT: Divide and Conquer
+
 // Divide the unsorted list into n sublists, each containing 1 element 
 // A list of only 1 element is considered to be sorted
 // Repeatedly merge sublists to produce new sorted sublits until there is only 1 sublist remaining 
