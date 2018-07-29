@@ -74,4 +74,4 @@ function doTheBubbleSorting(arr) {
 
 // console.log(doTheBubbleSorting(sortThisThing));
 // console.log(doTheBubbleSorting(sortThisOtherThing));
-console.log(doTheBubbleSorting(arrayOfAnotherSort));             //doesn't sort if there is a 0
+console.log(doTheBubbleSorting(arrayOfAnotherSort.slice()));             //doesn't sort if there is a 0
