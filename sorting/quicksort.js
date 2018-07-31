@@ -37,4 +37,4 @@ function sortThisThing(arr) {
 console.log(sortThisThing(quickArr))
 console.log(sortThisThing(anotherThing));
 
-
+module.exports = sortThisThing;
