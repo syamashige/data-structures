@@ -5,6 +5,7 @@
 // Repeats until no input elements remain
 
 let sortThisArray = [2, 9, 8, 10, 4, 1, 3, 6, 7, 5];
+let sortThisOtherArray = [4, 7, 10, 90, 2, 40, 22, 5];
 
 function insertSortThis(arr) {                  
     console.log("arr", arr)                     
@@ -23,3 +24,4 @@ function insertSortThis(arr) {
     return arr;
 }
 console.log(insertSortThis(sortThisArray));   // Returns [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+console.log(insertSortThis(sortThisOtherArray)); // Should Return: [2, 4, 5, 7, 10, 22, 40, 90]
